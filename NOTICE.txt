@@ -1,7 +1,3 @@
-=========================================================================
-==  Example NOTICE file for use with the Apache License, Version 2.0,  ==
-==  in this case for the Apache httpd-2.5.0 distribution.              ==
-=========================================================================
 
 Apache HTTP Server
 Copyright 2016 The Apache Software Foundation.
