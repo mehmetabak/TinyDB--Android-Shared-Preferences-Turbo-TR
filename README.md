@@ -49,7 +49,7 @@ for(Person p : usersWhoWon){
 
 tinydb.putListObject("allWinners", winnersObjects);
 ```
-**Kotlin usage sample:**
+**Kotlin kullanım örneği:**
 ```Kotlin
 // instantiate
 var tinyDB : TinyDB = TinyDB(applicationContext)
