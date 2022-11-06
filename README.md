@@ -1,7 +1,8 @@
 # TinyDB--Android-Shared-Preferences-Turbo-Turkce
 
 
-This class simplifies calls to SharedPreferences in a line of code. It can also do more like: saving a list of strings, integers and saving images. All in 1 line of code!
+Bu sınıf, bir satır kod ile SharedPreferences çağrılarını ve daha fazlasını gerçekleştirmenizi sağlar. Örnek olarak: bir listeyi kaydetme , bir sayısal veriyi kaydetme veya bir resmi kaydetme ... Hepsini bu sınıf ile yapabilirsiniz!
+
 
 **Örnek kullanım:**
 ```Java
@@ -71,7 +72,6 @@ var winnerPerson : Person = tinyDB.getObject("winnerKey", Person::class.java)
 Nesne kaydetme metodunu kullanmadan önce: 
 
 1. Gson'u projenizdeki Gradle bölümüne aktarmalısınız:
-Gradle:
 ```gradle
 dependencies {
   implementation 'com.google.code.gson:gson:2.8.8'
