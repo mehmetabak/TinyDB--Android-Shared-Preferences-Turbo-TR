@@ -3,42 +3,43 @@
 
 This class simplifies calls to SharedPreferences in a line of code. It can also do more like: saving a list of strings, integers and saving images. All in 1 line of code!
 
-**Example usage:**
+**Örnek kullanım:**
 ```Java
 TinyDB tinydb = new TinyDB(context);
 
-//Put data in database
+//Veri tabanına veri göndermek
 tinydb.putInt("clickCount", 2);
 tinydb.putFloat("xPoint", 3.6f);
 tinydb.putLong("userCount", 39832L);
 
-tinydb.putString("userName", "john");
+tinydb.putString("userName", "John");
 tinydb.putBoolean("isUserMale", true); 
 
 tinydb.putList("MyUsers", mUsersArray);
 tinydb.putImagePNG("DropBox/WorkImages", "MeAtlunch.png", lunchBitmap);
 
-//Get data from database
+//Veri tabanından veri çekmek
 int dataint = tinyDB.getInt("clickCount");
 String datastring = tinyDB.getString("userName");
-//These plus the corresponding get methods are all included
+//Bunlara ek olarak ilgili 'get' yöntemlerinin tümü aynı mantıktadır
+
 ```
 
 
-This is just an example of how easy it is to use. There are many more useful methods included in the class. Enjoy :)
+Bu ne kadar kolay kullanabileceğinize ait birkaç örnekti. Bu sınıfın içinde daha nice metot var.:)
 
 
 
-If you'd like to also save Objects, use the methods: 
+Ayrıca nesne (Object) kaydı için de bu metodu kullanabilirsiniz: 
 ```Java
 tinydb.putObject(key, object);
 tinydb.putListObject(key, objectsArray);
 ```
-**Example of saving Objects:**
+**Nesne kayıt örneği:**
 ```Java
 Person person = new Person("john", 24);
-tinydb.putObject("user1", person); //saves the object
-tinydb.getObject("user1", Person.class); // retrieves the object from storage
+tinydb.putObject("user1", person); //nesneyi kaydetme
+tinydb.getObject("user1", Person.class); // nesneyi hafızadan geri çekme
 
 ArrayList<Person> usersWhoWon = new ArrayList<Person>();
 ArrayList<Object> winnersObjects = new ArrayList<Object>();
@@ -51,25 +52,25 @@ tinydb.putListObject("allWinners", winnersObjects);
 ```
 **Kotlin kullanım örneği:**
 ```Kotlin
-// instantiate
+// TinyDB nesnesi oluşturma
 var tinyDB : TinyDB = TinyDB(applicationContext)
 
 
-// put / save
+// veriyi kaydetme
 tinyDB.putString("nameKey", "John")
 
 var winnerPerson : Person = Person()
 tinyDB.putObject("winnerKey", winnerPerson);
 
-// get
+// veriyi çekme
 var personName : String  = tinyDB.getString("nameKey")
 var winnerPerson : Person = tinyDB.getObject("winnerKey", Person::class.java)
 ```
 
 
-Before you can use the save objects methods, you must first: 
+Nesne kaydetme metodunu kullanmadan önce: 
 
-1. Import Gson into your project
+1. Gson'u projenize aktarmalısınız:
 Gradle:
 ```gradle
 dependencies {
@@ -77,7 +78,7 @@ dependencies {
 }
 ```
 
-2. Uncomment the save objects methods in your copy of TinyDB.java, starting at: [**Line31**][5], [**Line330**][2], [**Line345**][3], [**Line486**][4]
+2. TinyDB.java adlı sınıfınızdaki nesneleri kaydetme metotlarının yorumunu kaldırmalısınız, yorumlar şu satırlardadır : [**Line31**][5], [**Line330**][2], [**Line345**][3], [**Line486**][4]
 
 [1]:  http://search.maven.org/#artifactdetails%7Ccom.google.code.gson%7Cgson%7C2.4%7Cjar
 [2]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L330 
@@ -88,10 +89,10 @@ dependencies {
 
 
 
-### Installation
-Just add the TinyDB.java file as a Java Class into your project.
+### Kurulum
+TinyDB.java dosyasını projenize Java Sınıfı olarak eklemeniz yeterlidir.
 
 
 
-### Learning app developement?
-Check out my very easy videos [**on youtube**][6]
+### Uygulama geliştirmeyi öğrenmek mi istiyorsunuz?
+[**Youtube kanalından**][6] kolayca öğrenebilirsiniz.
