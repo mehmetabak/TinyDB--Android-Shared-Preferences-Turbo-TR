@@ -78,7 +78,7 @@ dependencies {
 }
 ```
 
-2. TinyDB.java adlı sınıfınızdaki nesneleri kaydetme metotlarının yorumunu kaldırmalısınız, yorumlar şu satırlardadır : [**Line31**][5], [**Line330**][2], [**Line345**][3], [**Line486**][4]
+2. TinyDB.java adlı sınıfınızdaki nesneleri kaydetme metotlarınında bulunan yorum satırı işaretlerini kaldırmalısınız, yorumlar şu satırlardadır : [**Line31**][5], [**Line330**][2], [**Line345**][3], [**Line486**][4]
 
 [1]:  http://search.maven.org/#artifactdetails%7Ccom.google.code.gson%7Cgson%7C2.4%7Cjar
 [2]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L330 
