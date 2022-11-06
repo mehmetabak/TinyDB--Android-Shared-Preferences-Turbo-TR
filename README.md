@@ -70,7 +70,7 @@ var winnerPerson : Person = tinyDB.getObject("winnerKey", Person::class.java)
 
 Nesne kaydetme metodunu kullanmadan önce: 
 
-1. Gson'u projenize aktarmalısınız:
+1. Gson'u projenize aktarmalısınız
 Gradle:
 ```gradle
 dependencies {
