@@ -1,15 +1,11 @@
 
-Apache HTTP Server
-Copyright 2016 The Apache Software Foundation.
+TinyDB--Android-Shared-Prefences-Turbo-Turkce
 
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
+This product includes:
 
-Portions of this software were developed at the National Center
-for Supercomputing Applications (NCSA) at the University of
-Illinois at Urbana-Champaign.
+Code ported from TinyDB--Android-Shared-Preferences-Turbo:
+* https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo
+* Copyright 2014-present The Apache Software Foundation
+* License: Apache 2.0, https://www.apache.org/licenses/LICENSE-2.0
 
-This software contains code derived from the RSA Data Security
-Inc. MD5 Message-Digest Algorithm, including various
-modifications by Spyglass Inc., Carnegie Mellon University, and
-Bell Communications Research, Inc (Bellcore).
+The text of the licenses for these included works may be found in the /licenses/ directory or in ported codes.
