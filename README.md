@@ -27,7 +27,7 @@ String datastring = tinyDB.getString("userName");
 ```
 
 
-Bu ne kadar kolay kullanabileceğinize ait birkaç örnekti. Bu sınıfın içinde daha nice metot var.:)
+Bunlar ne kadar kolay kullanabileceğinize ait birkaç örnekti. Bu sınıfın içinde kullanabileceğiniz daha nice metot var.
 
 
 
