@@ -46,7 +46,7 @@ ArrayList<Person> usersWhoWon = new ArrayList<Person>();
 ArrayList<Object> winnersObjects = new ArrayList<Object>();
 
 for(Person p : usersWhoWon){
-    winnersObjects.add((Object)p); // casting to raw objects
+    winnersObjects.add((Object)p); // ham(raw) nesne aktarımı(casting)
 }
 
 tinydb.putListObject("allWinners", winnersObjects);
