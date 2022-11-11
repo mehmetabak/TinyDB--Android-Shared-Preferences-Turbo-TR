@@ -86,6 +86,7 @@ dependencies {
 [4]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L486
 [5]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L31  
 [6]:  https://bit.ly/learn_app_dev_videos
+[7]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo
 
 
 
@@ -100,4 +101,4 @@ TinyDB.java dosyasını projenize Java Sınıfı olarak eklemeniz yeterlidir.
 
 
 ### Note
-This project is the developed and translated version of https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo.
+This project is the developed and translated version of [**TinyDB--Android-Shared-Preferences-Turbo**][7].
