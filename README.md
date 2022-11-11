@@ -101,4 +101,4 @@ TinyDB.java dosyasını projenize Java Sınıfı olarak eklemeniz yeterlidir.
 
 
 ### Note
-This project is the developed and translated version of [** TinyDB--Android-Shared-Preferences-Turbo**][7].
+This project is the developed and translated version of  [ **TinyDB--Android-Shared-Preferences-Turbo**][7].
