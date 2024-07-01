@@ -1,4 +1,4 @@
-# TinyDB--Android-Shared-Preferences-Turbo-Turkce
+# TinyDB || Android-Shared-Preferences-Turbo-Türkçe
 
 
 Bu sınıf, bir satır kod ile SharedPreferences çağrılarını ve daha fazlasını gerçekleştirmenizi sağlar. Örnek olarak: bir listeyi kaydetme , bir sayısal veriyi kaydetme veya bir resmi kaydetme ... Hepsini bu sınıf ile yapabilirsiniz!
