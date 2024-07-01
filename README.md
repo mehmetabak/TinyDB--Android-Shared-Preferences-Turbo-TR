@@ -80,13 +80,6 @@ dependencies {
 
 2. TinyDB.java adlı sınıfınızdaki nesneleri kaydetme metotlarınında bulunan yorum satırı işaretlerini kaldırmalısınız, yorumlar şu satırlardadır : [**Line31**][5], [**Line330**][2], [**Line345**][3], [**Line486**][4]
 
-[1]:  http://search.maven.org/#artifactdetails%7Ccom.google.code.gson%7Cgson%7C2.4%7Cjar
-[2]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L330 
-[3]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L345
-[4]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L486
-[5]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L31  
-[6]:  https://bit.ly/learn_app_dev_videos
-[7]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo
 
 
 
@@ -96,9 +89,18 @@ TinyDB.java dosyasını projenize Java Sınıfı olarak eklemeniz yeterlidir.
 
 
 ### Uygulama geliştirmeyi öğrenmek mi istiyorsunuz?
-[**Youtube kanalından**][6] kolayca öğrenebilirsiniz.
+[**Bu Youtube kanalından**][6] kolayca öğrenebilirsiniz.
 
 
 
 ### Note:
 This project is the developed and translated version of  [ **TinyDB--Android-Shared-Preferences-Turbo**][7].
+
+
+[1]:  http://search.maven.org/#artifactdetails%7Ccom.google.code.gson%7Cgson%7C2.4%7Cjar
+[2]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L330 
+[3]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L345
+[4]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L486
+[5]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java#L31  
+[6]:  https://bit.ly/learn_app_dev_videos
+[7]:  https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo
