@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group = 'com.arastir'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.8'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+
+            groupId = 'com.arastir'
+            artifactId = 'tinyDB-tr'
+            version = '1.0.0'
+
+            pom {
+                name = 'TinyDB'
+                description = 'A simple database library for Android'
+                url = 'https://github.com/mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'mehmetabak'
+                        name = 'Mehmetnur Abak'
+                        email = 'mehmetnurabak0@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:github.com/mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR.git'
+                    developerConnection = 'scm:git:ssh://mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR/repository.git'
+                    url = 'https://github.com/username/repository'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = 'GitHubPackages'
+            url = uri("https://maven.pkg.github.com/mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+}
