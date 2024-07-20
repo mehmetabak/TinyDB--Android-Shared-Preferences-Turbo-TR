@@ -3,6 +3,19 @@ plugins {
     id 'maven-publish'
 }
 
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
 group = 'com.arastir'
 version = '1.0.0'
 
