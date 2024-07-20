@@ -44,7 +44,7 @@ publishing {
                 scm {
                     connection = 'scm:git:github.com/mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR.git'
                     developerConnection = 'scm:git:ssh://mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR/repository.git'
-                    url = 'https://github.com/username/repository'
+                    url = 'https://github.com/mehmetabak/TinyDB--Android-Shared-Preferences-Turbo-TR'
                 }
             }
         }
