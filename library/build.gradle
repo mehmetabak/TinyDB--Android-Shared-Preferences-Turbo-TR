@@ -54,8 +54,8 @@ publishing {
                 developers {
                     developer {
                         id = 'mehmetabak'
-                        name = 'Mehmetnur Abak'
-                        email = 'mehmetnurabak0@gmail.com'
+                        name = 'Mehmet Abak'
+                        email = 'mehmetabak@proton.me'
                     }
                 }
                 scm {
